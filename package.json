@@ -1,0 +1,82 @@
+{
+  "name": "create-soybean",
+  "version": "1.6.1",
+  "description": "SoybeanJS's command line to create different project templates",
+  "homepage": "https://github.com/soybeanjs/create-soybean",
+  "bugs": {
+    "url": "https://github.com/soybeanjs/create-soybean/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Soybean",
+    "email": "soybeanjs@outlook.com",
+    "url": "https://github.com/soybeanjs"
+  },
+  "repository": {
+    "url": "https://github.com/soybeanjs/create-soybean.git"
+  },
+  "bin": {
+    "create-soybean": "./src/bin.js"
+  },
+  "files": [
+    "dist",
+    "template-*"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "bin": {
+      "create-soybean": "dist/index.js"
+    },
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "cleanup": "soy cleanup",
+    "commit": "soy git-commit",
+    "lint": "oxlint --fix && oxfmt",
+    "fmt": "oxfmt",
+    "prepare": "simple-git-hooks",
+    "publish-pkg": "pnpm publish --access public",
+    "release": "soy release",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "upkg": "soy update-pkg",
+    "rei": "pnpm cleanup && pnpm i"
+  },
+  "dependencies": {
+    "consola": "catalog:prod",
+    "kolorist": "catalog:prod",
+    "minimist": "catalog:prod",
+    "prompts": "catalog:prod"
+  },
+  "devDependencies": {
+    "@soybeanjs/cli": "catalog:dev",
+    "@types/minimist": "catalog:dev",
+    "@types/node": "catalog:dev",
+    "@types/prompts": "catalog:dev",
+    "lint-staged": "catalog:dev",
+    "oxfmt": "catalog:dev",
+    "oxlint": "catalog:dev",
+    "simple-git-hooks": "catalog:dev",
+    "tsdown": "catalog:dev",
+    "tsx": "catalog:dev",
+    "typescript": "catalog:dev"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm soy git-commit-verify",
+    "pre-commit": "pnpm typecheck && pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "oxlint --fix && oxfmt"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
