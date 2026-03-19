@@ -1,5 +1,7 @@
 # create-soybean
 
+简体中文 | [English](./README.en_US.md)
+
 [SoybeanJS](https://github.com/soybeanjs) 官方脚手架工具，用于快速创建不同类型的项目模板。
 
 ## 使用方式
