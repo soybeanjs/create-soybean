@@ -1,0 +1,32 @@
+# Changelog
+
+
+## [v1.7.0-beta.1](https://github.com/soybeanjs/create-soybean/compare/v1.7.0-beta.1...main) (2026-03-20)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **deps**:
+  - add .npmrc for shamefully-hoist configuration and update @soybeanjs/cli to version 1.7.0 &nbsp;-&nbsp; by **Soybean** [<samp>(d301e)</samp>](https://github.com/soybeanjs/create-soybean/commit/d301eb6)
+  - add _npmrc files with shamefully-hoist configuration for templates &nbsp;-&nbsp; by **Soybean** [<samp>(1b290)</samp>](https://github.com/soybeanjs/create-soybean/commit/1b2907d)
+- **docs**:
+  - add README with usage instructions and available templates &nbsp;-&nbsp; by **Soybean** [<samp>(f45b4)</samp>](https://github.com/soybeanjs/create-soybean/commit/f45b4cc)
+  - add English README and link to it from Chinese version &nbsp;-&nbsp; by **Soybean** [<samp>(cc794)</samp>](https://github.com/soybeanjs/create-soybean/commit/cc79417)
+- **projects**:
+  - use pnpm catalog mode &nbsp;-&nbsp; by **Soybean** [<samp>(ac337)</samp>](https://github.com/soybeanjs/create-soybean/commit/ac3371f)
+- **release**:
+  - add release script to update template versions &nbsp;-&nbsp; by **Soybean** [<samp>(7e5ba)</samp>](https://github.com/soybeanjs/create-soybean/commit/7e5ba0f)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **package**: update description for clarity and accuracy &nbsp;-&nbsp; by **Soybean** [<samp>(d7ee6)</samp>](https://github.com/soybeanjs/create-soybean/commit/d7ee69f)
+- **tsconfig**: remove unnecessary template paths from include &nbsp;-&nbsp; by **Soybean** [<samp>(22f68)</samp>](https://github.com/soybeanjs/create-soybean/commit/22f68a0)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: remove pnpm catalog mode &nbsp;-&nbsp; by **Soybean** [<samp>(27d8a)</samp>](https://github.com/soybeanjs/create-soybean/commit/27d8a5f)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+
+[Soybean](mailto:soybeanjs@outlook.com)
+

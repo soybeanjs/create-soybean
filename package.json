@@ -1,6 +1,6 @@
 {
   "name": "create-soybean",
-  "version": "1.6.1",
+  "version": "1.7.0-beta.1",
   "description": "The official scaffolding tool by SoybeanJS for quickly creating different project templates.",
   "homepage": "https://github.com/soybeanjs/create-soybean",
   "bugs": {
