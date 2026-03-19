@@ -33,7 +33,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@soybeanjs/cli": "^1.7.0",
+    "@soybeanjs/cli": "^1.7.1",
     "@types/node": "^25.5.0",
     "lint-staged": "^16.4.0",
     "oxfmt": "^0.41.0",

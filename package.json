@@ -43,7 +43,7 @@
     "build": "tsdown",
     "cleanup": "soy cleanup",
     "commit": "soy git-commit",
-    "lint": "oxlint --fix && oxfmt",
+    "lint": "oxlint --fix",
     "fmt": "oxfmt",
     "prepare": "simple-git-hooks",
     "publish-pkg": "pnpm publish --access public",
@@ -60,7 +60,7 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "^1.7.0",
+    "@soybeanjs/cli": "^1.7.1",
     "@types/minimist": "^1.2.5",
     "@types/node": "^25.5.0",
     "@types/prompts": "^2.4.9",

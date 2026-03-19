@@ -22,8 +22,8 @@ importers:
         version: 2.4.2
     devDependencies:
       '@soybeanjs/cli':
-        specifier: ^1.7.0
-        version: 1.7.0
+        specifier: ^1.7.1
+        version: 1.7.1
       '@types/minimist':
         specifier: ^1.2.5
         version: 1.2.5
@@ -614,12 +614,12 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@soybeanjs/changelog@0.4.4':
-    resolution: {integrity: sha512-xPQEdv/N1Vit0WMX86OR6ohUoyBmyoQcIfrRi+MFeVHdg9Dz5P8f9GZ4YxZxtLZUUCq6IOWioA7VRlc1UWJbNw==}
+  '@soybeanjs/changelog@0.4.5':
+    resolution: {integrity: sha512-dSCv1YB2RgH48RO2HcVmfEzv6rBt8bMU3iuugu9buOlZyUsq5zXkk8KGUbH1Q4h34tuPHjMiVV279xTw3PDoIg==}
     engines: {node: '>=18', pnpm: '>=9'}
 
-  '@soybeanjs/cli@1.7.0':
-    resolution: {integrity: sha512-V6+/gQjQg6q8PiN7ZJNMldhA0+cov8DvP7G3Reg0jvTGVm5saq9Q1Rht4OzTMBWj91g1k4fAEuyME2WKQ6W0MA==}
+  '@soybeanjs/cli@1.7.1':
+    resolution: {integrity: sha512-Vbf9k6yfIOT1bnTQnQNEDfBR8REYUOBvK41eCbUNu6ub0DlgoI6bj6hVSj+AQNRvvtcZ7r1khesEv6RHXWvveQ==}
     hasBin: true
 
   '@tybys/wasm-util@0.10.1':
@@ -1532,7 +1532,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@soybeanjs/changelog@0.4.4':
+  '@soybeanjs/changelog@0.4.5':
     dependencies:
       cli-progress: 3.12.0
       convert-gitmoji: 0.1.5
@@ -1541,9 +1541,9 @@ snapshots:
       ofetch: 1.5.1
       semver: 7.7.4
 
-  '@soybeanjs/cli@1.7.0':
+  '@soybeanjs/cli@1.7.1':
     dependencies:
-      '@soybeanjs/changelog': 0.4.4
+      '@soybeanjs/changelog': 0.4.5
       bumpp: 11.0.1
       c12: 3.3.3
       cac: 7.0.0
