@@ -50,27 +50,27 @@
     "release": "soy release -e 'pnpm release-execute'",
     "release-execute": "tsx ./scripts/release.ts && pnpm soy changelog",
     "typecheck": "tsc --noEmit --skipLibCheck",
-    "upkg": "soy update-pkg",
+    "upkg": "soy ncu",
     "rei": "pnpm cleanup && pnpm i"
   },
   "dependencies": {
-    "consola": "catalog:prod",
-    "kolorist": "catalog:prod",
-    "minimist": "catalog:prod",
-    "prompts": "catalog:prod"
+    "consola": "^3.4.2",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "catalog:dev",
-    "@types/minimist": "catalog:dev",
-    "@types/node": "catalog:dev",
-    "@types/prompts": "catalog:dev",
-    "lint-staged": "catalog:dev",
-    "oxfmt": "catalog:dev",
-    "oxlint": "catalog:dev",
-    "simple-git-hooks": "catalog:dev",
-    "tsdown": "catalog:dev",
-    "tsx": "catalog:dev",
-    "typescript": "catalog:dev"
+    "@soybeanjs/cli": "^1.6.2",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^25.5.0",
+    "@types/prompts": "^2.4.9",
+    "lint-staged": "^16.4.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.21.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm soy git-commit-verify",
