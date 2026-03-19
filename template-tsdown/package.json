@@ -29,21 +29,19 @@
     "publish-pkg": "pnpm publish --access public",
     "release": "soy release",
     "typecheck": "tsc --noEmit --skipLibCheck",
-    "upkg": "soy update-pkg"
+    "upkg": "soy ncu"
   },
-  "dependencies": {
-    "consola": "catalog:prod"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@soybeanjs/cli": "catalog:dev",
-    "@types/node": "catalog:dev",
-    "lint-staged": "catalog:dev",
-    "oxfmt": "catalog:dev",
-    "oxlint": "catalog:dev",
-    "simple-git-hooks": "catalog:dev",
-    "tsdown": "catalog:dev",
-    "tsx": "catalog:dev",
-    "typescript": "catalog:dev"
+    "@soybeanjs/cli": "^1.7.0",
+    "@types/node": "^25.5.0",
+    "lint-staged": "^16.4.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.21.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm soy git-commit-verify",
