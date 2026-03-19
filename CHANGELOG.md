@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [v1.7.0-beta.2](https://github.com/soybeanjs/create-soybean/compare/v1.7.0-beta.1...v1.7.0-beta.2) (2026-03-20)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **deps**: update dependencies and remove pnpm workspace files &nbsp;-&nbsp; by **Soybean** [<samp>(347ad)</samp>](https://github.com/soybeanjs/create-soybean/commit/347adc3)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+
+[Soybean](mailto:soybeanjs@outlook.com)
+
 ## [v1.7.0-beta.1](https://github.com/soybeanjs/create-soybean/compare/v1.7.0-beta.1...main) (2026-03-20)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
