@@ -1,7 +1,7 @@
 {
   "name": "create-soybean",
   "version": "1.6.1",
-  "description": "SoybeanJS's command line to create different project templates",
+  "description": "The official scaffolding tool by SoybeanJS for quickly creating different project templates.",
   "homepage": "https://github.com/soybeanjs/create-soybean",
   "bugs": {
     "url": "https://github.com/soybeanjs/create-soybean/issues"
