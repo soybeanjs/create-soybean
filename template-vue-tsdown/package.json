@@ -34,24 +34,26 @@
     "typecheck": "tsc --noEmit --skipLibCheck",
     "upkg": "soy update-pkg"
   },
-  "dependencies": {},
+  "dependencies": {
+    "consola": "catalog:prod"
+  },
   "devDependencies": {
-    "@soybeanjs/cli": "1.6.1",
-    "@types/node": "25.3.3",
-    "@vue/test-utils": "2.4.6",
-    "happy-dom": "20.8.3",
-    "lint-staged": "16.3.2",
-    "oxfmt": "^0.36.0",
-    "oxlint": "^1.51.0",
-    "simple-git-hooks": "2.13.1",
-    "tsdown": "0.21.0",
-    "tsx": "4.21.0",
-    "typescript": "5.9.3",
-    "unplugin-vue": "7.1.1",
-    "unplugin-vue-jsx": "0.8.1",
-    "vite": "7.3.1",
-    "vue": "3.5.29",
-    "vue-tsc": "3.2.5"
+    "@soybeanjs/cli": "catalog:dev",
+    "@types/node": "catalog:dev",
+    "@vue/test-utils": "catalog:dev",
+    "happy-dom": "catalog:dev",
+    "lint-staged": "catalog:dev",
+    "oxfmt": "catalog:dev",
+    "oxlint": "catalog:dev",
+    "simple-git-hooks": "catalog:dev",
+    "tsdown": "catalog:dev",
+    "tsx": "catalog:dev",
+    "typescript": "catalog:dev",
+    "unplugin-vue": "catalog:dev",
+    "unplugin-vue-jsx": "catalog:dev",
+    "vite": "catalog:dev",
+    "vue": "catalog:dev",
+    "vue-tsc": "catalog:dev"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm soy git-commit-verify",
@@ -60,5 +62,5 @@
   "lint-staged": {
     "*": "oxlint --fix && oxfmt"
   },
-  "packageManager": "pnpm@10.30.3"
+  "packageManager": "pnpm@10.32.1"
 }

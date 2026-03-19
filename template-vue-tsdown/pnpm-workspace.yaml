@@ -1,0 +1,24 @@
+catalogMode: prefer
+ignoreWorkspaceRootCheck: true
+shamefullyHoist: true
+
+catalogs:
+  dev:
+    '@soybeanjs/cli': '1.6.1'
+    '@types/node': '25.3.3'
+    '@vue/test-utils': '2.4.6'
+    'happy-dom': '20.8.3'
+    'lint-staged': '16.3.2'
+    'oxfmt': '^0.36.0'
+    'oxlint': '^1.51.0'
+    'simple-git-hooks': '2.13.1'
+    'tsdown': '0.21.0'
+    'tsx': '4.21.0'
+    'typescript': '5.9.3'
+    'unplugin-vue': '7.1.1'
+    'unplugin-vue-jsx': '0.8.1'
+    'vite': '7.3.1'
+    'vue': '3.5.29'
+    'vue-tsc': '3.2.5'
+  prod:
+    'consola': ^3.4.2
