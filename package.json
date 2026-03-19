@@ -60,7 +60,7 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "^1.6.2",
+    "@soybeanjs/cli": "^1.7.0",
     "@types/minimist": "^1.2.5",
     "@types/node": "^25.5.0",
     "@types/prompts": "^2.4.9",
