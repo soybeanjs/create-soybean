@@ -19,6 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true
   },
-  "include": ["src/**/*", "template-tsdown", "template-vue", "template-vue-tsdown"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
