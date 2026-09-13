@@ -1,5 +1,5 @@
-import { defineConfig, presetWind3, transformerDirectives, transformerVariantGroup } from 'unocss';
-import { presetSoybean } from '@soybeanjs/unocss-preset';
+import { defineConfig, transformerDirectives, transformerVariantGroup } from 'unocss';
+import { presetUiUnocss } from '@soybeanjs/ui-uno';
 
 export default defineConfig({
   content: {
@@ -8,5 +8,5 @@ export default defineConfig({
     }
   },
   transformers: [transformerDirectives(), transformerVariantGroup()],
-  presets: [presetWind3({ dark: 'class' }), presetSoybean()]
+  presets: [presetUiUnocss()]
 });

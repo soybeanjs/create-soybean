@@ -4,13 +4,13 @@ import path from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { consola } from 'consola';
-import { cyan, green, red, reset } from 'kolorist';
+import { blue, cyan, green, red, reset } from 'kolorist';
 import minimist from 'minimist';
 import prompts from 'prompts';
 import type { Answers } from 'prompts';
 import { copy, emptyDir, formatTargetDir, isPathEmpty, isValidPackageName, toValidPackageName } from './shared';
 
-type TemplateType = 'tsdown' | 'vue' | 'vue-tsdown';
+type TemplateType = 'ts-lib' | 'vue' | 'vue-lib' | 'ubean' | 'ubean-client';
 
 type ColorFunc = (str: string | number) => string;
 
@@ -22,8 +22,8 @@ interface Template {
 
 const templates: Template[] = [
   {
-    type: 'tsdown',
-    name: 'TypeScript library by tsdown',
+    type: 'ts-lib',
+    name: 'TypeScript library',
     color: cyan
   },
   {
@@ -32,9 +32,19 @@ const templates: Template[] = [
     color: green
   },
   {
-    type: 'vue-tsdown',
-    name: 'Vue 3 + TypeScript library by tsdown',
+    type: 'vue-lib',
+    name: 'Vue 3 + TypeScript library',
     color: green
+  },
+  {
+    type: 'ubean',
+    name: 'Ubean full-stack app (SSR, islands, i18n)',
+    color: blue
+  },
+  {
+    type: 'ubean-client',
+    name: 'Ubean client-only SPA',
+    color: blue
   }
 ];
 
@@ -44,9 +54,7 @@ const renameFiles: Record<string, string | undefined> = {
   _editorconfig: '.editorconfig',
   _gitattributes: '.gitattributes',
   _gitignore: '.gitignore',
-  _npmrc: '.npmrc',
-  '_oxlintrc.json': '.oxlintrc.json',
-  '_oxfmtrc.json': '.oxfmtrc.json'
+  '_vite-hooks': '.vite-hooks'
 };
 
 const defaultTargetDir = 'create-soybean-project';

@@ -1,0 +1,38 @@
+{
+  "name": "template-ubean",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "ubean build",
+    "cleanup": "soy cleanup",
+    "commit": "soy git-commit",
+    "dev": "ubean dev",
+    "fmt": "vp fmt",
+    "lint": "vp lint --fix && pnpm lint:vue",
+    "lint:vue": "eslint . --ext .vue --fix",
+    "preview": "ubean preview",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck",
+    "upkg": "soy ncu"
+  },
+  "dependencies": {
+    "@iconify/vue": "^5.0.1",
+    "@ubean/islands": "^0.5.1",
+    "ubean": "^0.5.1",
+    "valibot": "^1.5.0",
+    "vue": "^3.5.42",
+    "vue-i18n": "^11.4.10",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@soybeanjs/cli": "^1.8.3",
+    "@soybeanjs/eslint-config-vue": "^0.1.1",
+    "@soybeanjs/oxc-config": "^0.2.6",
+    "@types/node": "^26.5.1",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "vue-tsc": "^3.3.11"
+  },
+  "packageManager": "pnpm@12.4.1"
+}

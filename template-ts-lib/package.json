@@ -1,0 +1,40 @@
+{
+  "name": "template-ts-lib",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "cleanup": "soy cleanup",
+    "commit": "soy git-commit",
+    "fmt": "vp fmt",
+    "lint": "vp lint --fix",
+    "publish-pkg": "pnpm publish --access public",
+    "release": "soy release",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "upkg": "soy ncu"
+  },
+  "devDependencies": {
+    "@soybeanjs/cli": "^1.8.3",
+    "@soybeanjs/oxc-config": "^0.2.6",
+    "@types/node": "^26.5.1",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "packageManager": "pnpm@12.4.1"
+}

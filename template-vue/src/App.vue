@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <SConfigProvider>
-    <RouterView />
-  </SConfigProvider>
+  <SCard title="SoybeanUI">
+    <SButton>Hello World</SButton>
+  </SCard>
 </template>

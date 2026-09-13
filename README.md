@@ -42,11 +42,13 @@ npm create soybean@latest my-project -- --template vue
 
 ## 可用模板
 
-| 模板         | 描述                                    |
-| ------------ | --------------------------------------- |
-| `tsdown`     | TypeScript 库（由 tsdown 构建）         |
-| `vue`        | Vue 3 项目                              |
-| `vue-tsdown` | Vue 3 + TypeScript 库（由 tsdown 构建） |
+| 模板           | 描述                               |
+| -------------- | ---------------------------------- |
+| `ts-lib`       | TypeScript 库                      |
+| `vue`          | Vue 3 项目                         |
+| `vue-lib`      | Vue 3 + TypeScript 库              |
+| `ubean`        | ubean 全栈应用（SSR/Islands/i18n） |
+| `ubean-client` | ubean 纯客户端 SPA                 |
 
 ## License
 

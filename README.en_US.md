@@ -42,11 +42,13 @@ npm create soybean@latest my-project -- --template vue
 
 ## Available Templates
 
-| Template     | Description                                    |
-| ------------ | ---------------------------------------------- |
-| `tsdown`     | TypeScript library (built with tsdown)         |
-| `vue`        | Vue 3 project                                  |
-| `vue-tsdown` | Vue 3 + TypeScript library (built with tsdown) |
+| Template       | Description                        |
+| -------------- | ---------------------------------- |
+| `ts-lib`       | TypeScript library                 |
+| `vue`          | Vue 3 project                      |
+| `vue-lib`      | Vue 3 + TypeScript library         |
+| `ubean`        | ubean full-stack app (SSR/islands) |
+| `ubean-client` | ubean client-only SPA              |
 
 ## License
 
