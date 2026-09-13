@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.7.1](https://github.com/soybeanjs/create-soybean/compare/v1.7.0...v1.7.1) (2026-09-13)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - migrant to vite-plus and update config &nbsp;-&nbsp; by @soybeanjs [<samp>(98b6a)</samp>](https://github.com/soybeanjs/create-soybean/commit/98b6a7f)
+  - rework templates and add ubean templates &nbsp;-&nbsp; by @soybeanjs [<samp>(d0a35)</samp>](https://github.com/soybeanjs/create-soybean/commit/d0a351b)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v1.7.0](https://github.com/soybeanjs/create-soybean/compare/v1.7.0...main) (2026-03-20)
 
 ### &nbsp;&nbsp;&nbsp;🚀 Features
