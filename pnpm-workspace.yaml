@@ -1,0 +1,11 @@
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vite-plus: latest
+overrides:
+  vite: 'catalog:'
+allowBuilds:
+  esbuild: false
+shamefullyHoist: true
+ignoreWorkspaceRootCheck: true
+minimumReleaseAgeExclude:
+  - '@soybeanjs/cli@1.8.3'

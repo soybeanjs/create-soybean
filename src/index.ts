@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-import process from 'node:process';
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import process from 'node:process';
 import { fileURLToPath } from 'node:url';
+import { consola } from 'consola';
 import { cyan, green, red, reset } from 'kolorist';
 import minimist from 'minimist';
 import prompts from 'prompts';
 import type { Answers } from 'prompts';
-import { consola } from 'consola';
 import { copy, emptyDir, formatTargetDir, isPathEmpty, isValidPackageName, toValidPackageName } from './shared';
 
 type TemplateType = 'tsdown' | 'vue' | 'vue-tsdown';

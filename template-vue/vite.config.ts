@@ -2,9 +2,9 @@ import { URL, fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import Vue from '@vitejs/plugin-vue';
 import VueJsx from '@vitejs/plugin-vue-jsx';
-import UiResolver from '@soybeanjs/ui/resolver';
-import Unocss from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
+import Unocss from 'unocss/vite';
+import UiResolver from '@soybeanjs/ui/resolver';
 import ElegantRouter from 'elegant-router/vite';
 
 export default defineConfig({

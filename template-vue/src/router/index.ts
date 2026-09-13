@@ -1,9 +1,9 @@
 import type { App } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import type { Router } from 'vue-router';
+import { layouts, views } from './_generated/imports';
 import { routes } from './_generated/routes';
 import { transformToVueRoutes } from './_generated/transformer';
-import { layouts, views } from './_generated/imports';
 
 export const router = createRouter({
   history: createWebHistory(),
